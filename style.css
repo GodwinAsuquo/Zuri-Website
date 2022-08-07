@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.04rem;
+}
+
+html{
+   font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+    font-size: 1rem;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #514949;
+    background: url(https://zuri.team/img/hero-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+}
+
+.container img{
+    margin: 4.5em;
+}
+
+.container p a{
+    text-decoration: none;
+    color: #E7332B;
+}
+
+.btn-1{
+    border-radius: 0;
+    color: white;
+    background-color: #E7332B;
+    border: 1px solid #E7332B;
+    padding: 1em 2em;
+    font-size: 1.02rem;
+}
+.btn-2{
+    border-radius: 0;
+        color: #E7332B;
+        background-color: white;
+        border: 1px solid #E7332B;
+        padding: 1em 2em;
+        margin-left: 1em;
+        font-size: 1.02rem;
+}
+.btn-1:hover,
+.btn-1:focus{
+    color: #E7332B;
+    background-color: white;
+        border: 1px solid #E7332B;
+}
+.btn-2:hover,
+.btn-2:focus{
+    color: white;
+        background-color: #E7332B;
+        border: 1px solid #E7332B;
+}
+.container h2{
+    font-weight: 400;
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    margin-bottom: 1.2em;
+    
+}
+.container p{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 6em;
+    line-height: 1.5em;
+    color: #514949;
+  
+}
+@media (max-width: 768px){
+.container .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-2 {
+    margin-left: 0;
+    margin-top: 1.5em;
+}
+.container p {
+    width: 90%;
+}
+.container h2 {
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+}
+
+.zuri-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.zuri-container p {
+color: #E7332B;
+font-size: 0.9rem;
+margin-top: 10.1em;
+margin-bottom: 1.4em;
+}
+.zuri-container h4{
+width: 50%;
+text-align: center;
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 1.7;
+margin-bottom: 1em;
+}
+.second-container h4 {
+color: #514949;
+}
+@media (max-width:768px){
+    .second-container h4 {
+        width: 80%;
+    }
+}
+
+.flex{
+    background-color: #FFFAFA;
+    padding: 2em 2em 6em 2em;
+    margin: 1em;
+    width: 25%;
+}
+.flex a{
+text-decoration: none;
+color: #E7332B;
+}
+.flex img{
+    margin: 2em 0;
+}
+.flex p{
+    line-height: 1.6;
+    color: #514949;
+    margin-bottom: 2em;
+    font-family: Averta, sans-serif;
+}
+
+.second-container .img-1{
+    position: absolute;
+    top: 65em; 
+    left: 1em;
+    width: 25%;
+    z-index: -1;
+}
+.second-container .img-2 {
+    position: absolute;
+    top: 65em;
+    right: 1em;
+    width: 25%;
+    z-index: -1;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .flex{
+        padding: 2em;
+        width: 90%
+    }
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    align-items: flex-start;
+}
+.item{
+    margin: 5em;
+}
+
+.social-media-links{
+    display: flex;
+    align-items: center;
+}
+
+.social-media-links img {
+    width: 30%;
+    margin: 0;
+}
+.links{
+    margin-bottom: 2em;
+}
+.info .zuri-logo{
+    width: 8%;
+}
+footer a{
+    color: #E7332B;
+    text-decoration: none;
+    font-family: Averta, sans-serif;
+}
+footer p{
+    color: #514949;
+    font-family: Averta, sans-serif;
+}
+.info p, .info a{
+    margin-bottom: 1.3em;
+}
+.address, .mail{
+    font-size: 0.9rem;
+    font-weight: light;
+}
+.line{
+    background-color: #514949;
+    height: 0.7px;
+    width: 80%;
+    margin: auto;
+    opacity: 0.2;
+    margin-bottom: 2em;
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 7em;
+}
+
+@media (max-width:768px) {
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .links{
+        margin: 0.6em 0;
+        text-align: center;;
+    }
+    .contact{
+        text-align: center;
+        margin: 0.6em 0; 
+    }
+    .social-media{
+        text-align: center;
+        margin: 0.6em 0;
+    }
+    .zuri-logo{
+        width: 40% !important;
+    }
+    .title{
+        font-size: 1.5rem;
+        margin-bottom: 0.4em !important;
+    }
+        .info p,
+        .info a {
+            margin-bottom: 1em;
+        }
+    .line{
+        opacity: 1;
+    }
+}
+
