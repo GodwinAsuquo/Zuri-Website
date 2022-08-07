@@ -49,7 +49,9 @@ header .container{
     border: 1px solid #E7332B;
     padding: 1em 2em;
     font-size: 1.02rem;
+    text-decoration: none;
 }
+
 .btn-2{
     border-radius: 0;
         color: #E7332B;
@@ -58,13 +60,16 @@ header .container{
         padding: 1em 2em;
         margin-left: 1em;
         font-size: 1.02rem;
+        text-decoration: none;
 }
+
 .btn-1:hover,
 .btn-1:focus{
     color: #E7332B;
     background-color: white;
         border: 1px solid #E7332B;
 }
+
 .btn-2:hover,
 .btn-2:focus{
     color: white;
