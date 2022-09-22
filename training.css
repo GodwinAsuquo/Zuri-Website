@@ -1313,7 +1313,23 @@ top: 4.5em;
 .second-boy,
 .second-spiral-arrow,
 .black-star,
-.structure-box2
+.structure-box2,
+.structure-box1,
+.triangle,
+.orange,
+.hour-glass,
+.third-dotted-box,
+.quater-circle2,
+.quater-circle,
+.spiral-circle,
+.red-star,
+.sixth-spiral-arrow,
+.fifth-spiral-arrow,
+.fourth-spiral-arrow,
+.dotted-box,
+.third-spiral-arrow,
+.wavy-line,
+.spiral-arrow
 {
     display: none;
 }
