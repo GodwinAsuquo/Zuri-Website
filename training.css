@@ -120,10 +120,13 @@ nav button {
     }
 }
 .first-section{
+    max-width: 1240px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-top: 12em;
+    position: relative
 }
 .search {
 color: #e7332b;
@@ -169,8 +172,9 @@ margin-top: 9rem;
     margin-top: 35em;
 }
 .first-section .girl{
-width: 100%;
-top: 8em;
+top: -30em;
+width: 90%;
+margin-left: 2em;
 }
 .first-section .spiral-arrow{
     width: 18%;
@@ -430,13 +434,12 @@ margin-bottom: 0.3em;
 .grid-box{
     background: white ;
     border-radius: 30px;
-    padding: 2em;
-    /* box-shadow: 5px 10px 18px #888888; */
+    padding: 3.5em 3em;
     box-shadow: var(--light-shadow);
 }
 .grid-box h4{
     margin-bottom: 1em;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 .grid-box img{
     width: 12%;
@@ -447,6 +450,7 @@ margin-bottom: 0.3em;
     line-height: var(--line-height);
     letter-spacing: var(--letter-spacing);
     color: #1b1a20;
+    font-size: 1.4rem;
 }
 .section-5 button{
  display: flex;  
@@ -1178,39 +1182,39 @@ padding: 4em 0 4em 0;
 }
 /*----------------- images-------------- */
 .girl{
-    position: absolute;
+position: absolute;
 width: 30%;
-top: 18em;
+top: 0;
 left: 0;
 }
 .boy{
     position: absolute;
     width: 27%;
-    top: 18em;
+    top: 0;
     right: 3em;
 }
 .wavy-line{
     position: absolute;
-    top:26.5em;
+    top:14em;
     width: 13%;
     left: 51%;
 }
 .spiral-arrow{
     position: absolute;
-left: 52%;
-    top: 37em;
+    left: 52%;
+    top: 25em;  
     width: 7%;
 }
 .second-boy{
 position: absolute;
 left: 30%;
-top: 37em;
+top: 20em;
 width: 4%;
 }
 .second-spiral-arrow{
     position: absolute;
     width: 9%;
-    top: 67em;
+    top: 54em;
     left: 24%;
 }
 .black-star{
